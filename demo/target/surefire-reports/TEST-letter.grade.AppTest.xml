@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="letter.grade.AppTest" time="0.151" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="letter.grade.AppTest" time="0.118" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="TW"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\AdoptOpenJDK\jdk-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\88696\AppData\Local\Temp\surefire17537672432297644427\surefirebooter6066645766846233538.jar C:\Users\88696\AppData\Local\Temp\surefire17537672432297644427 2022-01-04T11-59-07_621-jvmRun1 surefire17479681471594880940tmp surefire_01149398310467109430tmp"/>
+    <property name="sun.java.command" value="C:\Users\88696\AppData\Local\Temp\surefire8057655129374143303\surefirebooter14320546767429250968.jar C:\Users\88696\AppData\Local\Temp\surefire8057655129374143303 2022-01-04T12-31-59_221-jvmRun1 surefire6796691627475840970tmp surefire_01585496509333312145tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\88696\Desktop\Software Engineering\Hw04\letterGrade\demo\target\test-classes;C:\Users\88696\Desktop\Software Engineering\Hw04\letterGrade\demo\target\classes;C:\Users\88696\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\88696\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\88696\AppData\Local\Temp\surefire17537672432297644427\surefirebooter6066645766846233538.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\88696\AppData\Local\Temp\surefire8057655129374143303\surefirebooter14320546767429250968.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11+28"/>
@@ -60,8 +60,15 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="inputSeventyShouldReturnLetterC" classname="letter.grade.AppTest" time="0.008"/>
-  <testcase name="inputNinetyShouldReturnLetterA" classname="letter.grade.AppTest" time="0"/>
+  <testcase name="inputSeventyShouldReturnLetterC" classname="letter.grade.AppTest" time="0.004"/>
+  <testcase name="inputNinetyShouldReturnLetterA" classname="letter.grade.AppTest" time="0.001"/>
+  <testcase name="inputInSecondPartitionShouldReturnLetterB" classname="letter.grade.AppTest" time="0"/>
+  <testcase name="inputInFirstPartitionShouldReturnLetterA" classname="letter.grade.AppTest" time="0"/>
+  <testcase name="inputInThirdPartitionShouldReturnLetterC" classname="letter.grade.AppTest" time="0"/>
+  <testcase name="inputBelowZeroShouldReturnLetterX" classname="letter.grade.AppTest" time="0"/>
+  <testcase name="inputInFifthPartitionShouldReturnLetterF" classname="letter.grade.AppTest" time="0"/>
+  <testcase name="inputInFourthPartitionShouldReturnLetterD" classname="letter.grade.AppTest" time="0"/>
+  <testcase name="inputOverHundredShouldReturnLetterX" classname="letter.grade.AppTest" time="0"/>
   <testcase name="inputSixtyShouldReturnLetterD" classname="letter.grade.AppTest" time="0"/>
   <testcase name="inputOneHundredShouldReturnLetterA" classname="letter.grade.AppTest" time="0"/>
   <testcase name="inputZeroShouldReturnLetterF" classname="letter.grade.AppTest" time="0"/>
